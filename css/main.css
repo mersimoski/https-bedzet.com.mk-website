@@ -3444,3 +3444,21 @@ ul.ttm-list {
 #hiddenmenu:hover{
     display: flex;!important;
 }
+
+.products-display{
+    display: none;
+    list-style: none;
+}
+
+.featured-imagebox:hover .products-display{
+    transition: 0.3s ease;
+    display: block;
+}
+
+.products-display-list li{
+    padding:10px;
+    font-size:20px;
+}
+.products-display-list li:hover{
+    background-color: #c68a61 ;
+}
